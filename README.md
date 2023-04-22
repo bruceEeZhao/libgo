@@ -1,3 +1,24 @@
+# libgo wiki
+libgo 文档请访问 [https://github.com/bruceEeZhao/libgo/wiki](https://github.com/bruceEeZhao/libgo/wiki)
+
+libgo文档共包括以下8个章节：
+
+[1-libgo使用](https://github.com/bruceEeZhao/libgo/wiki/1-libgo%E4%BD%BF%E7%94%A8) 该文档介绍了如何使用libgo，从代码编译开始。libgo的使用主要在tutorial文件夹下，包含了多种使用示例。
+
+[2-scheduler](https://github.com/bruceEeZhao/libgo/wiki/2-scheduler) 该文档介绍了libgo中协程调度的全部内容，首先调度器的整体结构，之后对调度系统包含的三个角色(scheduler、processer和dispatcher)分别进行介绍。还介绍了协程的重要结构Task和系统调用HOOK。
+
+[3-gc](https://github.com/bruceEeZhao/libgo/wiki/3-gc) 该文档介绍了libgo中gc相关的内容，包括两个部分scheduler和task中的gc机制。
+
+[4-debug](https://github.com/bruceEeZhao/libgo/wiki/4-debug) 该文档介绍libgo中调试相关内容。
+
+[5-锁机制](https://github.com/bruceEeZhao/libgo/wiki/5-%E9%94%81%E6%9C%BA%E5%88%B6) 该文档介绍协程锁和协程读写锁
+
+[6-channel](https://github.com/bruceEeZhao/libgo/wiki/6-channel) 该文档介绍libgo的channel机制
+
+[7-switcher](https://github.com/bruceEeZhao/libgo/wiki/7-switcher) 该文档介绍libgo为了实现锁机制实现的switcher
+
+[8-timer](https://github.com/bruceEeZhao/libgo/wiki/8-timer) 该文档主要介绍libgo中的定时器机制，并主要介绍自定义定时器`CoTimer`
+
 # libgo
 
 [![Build Status](https://travis-ci.org/yyzybb537/libgo.svg?branch=master)](https://travis-ci.org/yyzybb537/libgo)
